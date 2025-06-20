@@ -75,31 +75,7 @@ tabs:
           avatar: https://ts4.tc.mm.bing.net/th/id/ODLS.1e67f861-d980-4c01-ba66-9450f90172f4
           desc: 我是描述
           image: /avator.jpg
-        - title: bilibili
-          link: www.baidu.com
-          avatar: https://ts4.tc.mm.bing.net/th/id/ODLS.1e67f861-d980-4c01-ba66-9450f90172f4
-          desc: 我是描述
-          image: /avator.jpg
-        - title: bilibili
-          link: www.baidu.com
-          avatar: https://ts4.tc.mm.bing.net/th/id/ODLS.1e67f861-d980-4c01-ba66-9450f90172f4
-          desc: 我是描述
-          image: /avator.jpg
-        - title: bilibili
-          link: www.baidu.com
-          avatar: https://ts4.tc.mm.bing.net/th/id/ODLS.1e67f861-d980-4c01-ba66-9450f90172f4
-          desc: 我是描述
-          image: /avator.jpg
-        - title: bilibili
-          link: www.baidu.com
-          avatar: https://ts4.tc.mm.bing.net/th/id/ODLS.1e67f861-d980-4c01-ba66-9450f90172f4
-          desc: 我是描述
-          image: /avator.jpg
-        - title: bilibili
-          link: www.baidu.com
-          avatar: https://ts4.tc.mm.bing.net/th/id/ODLS.1e67f861-d980-4c01-ba66-9450f90172f4
-          desc: 我是描述
-          image: /avator.jpg
+
   test:
       name: 重要通知
       avail: true
