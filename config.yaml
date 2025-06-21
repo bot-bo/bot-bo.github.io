@@ -1,7 +1,7 @@
 websiteTitle: "个人主页"
-websiteFavicon: /avatar.jpg
+websiteFavicon: https://cdn.jsdelivr.net/gh/bot-bo/cdn@v1.0/images/background.png
 beiAnNum: 
-avatar: /avatar.jpg
+avatar: https://cdn.jsdelivr.net/gh/bot-bo/cdn@v1.0/images/background.png
 showWeather: 0
 
 
