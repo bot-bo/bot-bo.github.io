@@ -1,7 +1,7 @@
 websiteTitle: "个人主页"
 websiteFavicon: https://cdn.jsdelivr.net/gh/bot-bo/cdn@v1.0/images/background.png
 beiAnNum: 
-avatar: https://cdn.jsdelivr.net/gh/bot-bo/cdn@v1.0/images/background.png
+avatar: https://cdn.jsdelivr.net/gh/bot-bo/cdn@v1.0/images/avatar.png
 showWeather: 0
 
 
@@ -143,3 +143,4 @@ projects:
 #    avatar: www.baidu.com
 #    desc: 我是描述
 #    image: /avator.jpg
+
