@@ -262,3 +262,150 @@
 .marked-show-container .footnote-item p em {
   font-weight: normal;
 }
+
+
+
+
+* {
+  border: none;
+}
+.marked-show-container{
+  --code-bg-color: #f8f6f4;
+}
+/*代码*/
+.marked-show-container .hljs {
+  padding: 0 0;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.marked-show-container .code-container {
+  background-color: var(--code-bg-color);
+  border: 2px solid var(--code-bg-color);
+  border-radius: 8px;
+  margin: 0 auto;
+  position: relative;
+}
+.marked-show-container .code-container .blog-code-tool {
+  display: flex;
+  color: #888888;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  font-size: 1em;
+}
+.marked-show-container .code-container .blog-code-tool .tool-left-container {
+  display: flex;
+  align-items: center;
+}
+.marked-show-container .code-container .blog-code-tool .tool-left-container i {
+  width: 16px;
+}
+.marked-show-container .code-container .blog-code-tool .tool-left-container span {
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 5px;
+}
+.marked-show-container .code-container .blog-code-tool{
+  display: none;
+}
+.marked-show-container .code-container .blog-code-tool i {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.marked-show-container .code-container .blog-code-tool i:hover {
+  color: #81D4FA;
+}
+.marked-show-container .code-container .blog-code-tool .copy-icon::before {
+  content: "\f0c5";
+}
+.marked-show-container .code-container .blog-code-tool .right-icon::before {
+  content: "\f0da";
+}
+.marked-show-container .code-container .blog-code-tool .down-icon::before {
+  content: "\f0d7";
+}
+.marked-show-container .code-container .blog-code-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.marked-show-container .code-container .blog-code-title span {
+  color: #888888;
+}
+.marked-show-container .code-container pre {
+  overflow: auto;
+  margin: 5px 0;
+}
+.marked-show-container .code-container pre::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #efefef;
+}
+.marked-show-container .code-container pre::-webkit-scrollbar {
+  height: 3px;
+  width: 5px;
+}
+.marked-show-container .code-container .code-line-list {
+  display: block;
+  font-family: consolas, sans-serif;
+  max-height: 40rem;
+  /*overflow-x: auto;*/
+  list-style: decimal;
+  background-color: var(--code-bg-color);
+  width: fit-content;
+  /*width: 100%;*/
+  box-sizing: border-box;
+}
+.marked-show-container .code-container .code-line-list .code-line-extend {
+  height: 1.6rem;
+  line-height: 1.6;
+  display: block;
+  white-space: pre;
+  /*width: 100%;*/
+}
+.marked-show-container .code-container .code-line-list .code-line-extend:before {
+  content: attr(line-num);
+  color: gray;
+  user-select: none;
+  background-color: var(--code-bg-color);
+  text-align: center;
+  display: inline-block;
+  width: 20px;
+  padding: 0 5px;
+  box-sizing: content-box;
+  position: sticky;
+  left: 0;
+}
+
+.blog-code-dot-wrapper {
+  padding: 5px 0;
+  height: 30px;
+  width: 100%;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+/*三个点开始*/
+.blog-code-dot-wrapper div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.blog-code-dot-wrapper div:nth-child(1) {
+  /*yellow;*/
+  background-color: #fc625d;
+  margin-left: 5px;
+}
+.blog-code-dot-wrapper div:nth-child(2) {
+  /*#BBDEFB*/
+  background-color: #fdbc40;
+}
+.blog-code-dot-wrapper div:nth-child(3) {
+  /*#FFCDD2*/
+  background-color: #35cd4b;
+}
+
