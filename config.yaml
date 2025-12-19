@@ -63,7 +63,10 @@ tabs:
   test:
     name: 重要通知
     avail: true
-    data : 数据暂时还没有完善，请尽情期待😉
+    data: "{pink}[数据暂时还没有完善，请尽情期待🥳#]<br />
+{#CE93D8}[有什么问题随时联系我😉#]
+<img style='width: 23%;display:block;margin-left:auto' src='https://cdn.jsdelivr.net/gh/bot-bo/cdn/images/picture.png' />
+"
 
 
   friends:
